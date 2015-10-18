@@ -1,4 +1,7 @@
 *.pyc
 *.egg-info
+*.egg
 virtualenv
 tags
+build/
+dist/
