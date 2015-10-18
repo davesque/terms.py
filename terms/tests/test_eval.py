@@ -2,7 +2,7 @@ from __future__ import unicode_literals
 
 import unittest
 
-from ..tree import RuleBase, Rule, Symbol, Add, Expression
+from ..eval import RuleBase, Rule, Symbol, Add, Expression
 
 
 class TestTree(unittest.TestCase):
@@ -24,10 +24,3 @@ class TestTree(unittest.TestCase):
                 self.base.simplify(e1),
                 e2,
             )
-
-
-"""
->>> x = a
->>> x + x
-a + a
-"""
